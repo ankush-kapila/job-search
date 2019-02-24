@@ -1,0 +1,242 @@
+#header{
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100%;
+    border-bottom: none;
+}
+#header .navbar{
+    margin-bottom: 0px;
+}
+#header .navbar .nav{
+    padding-top: 35px;
+}
+#header .navbar .logo{
+    display: inline;
+}
+#header .navbar-default, .login .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+#header .nav li a{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-size: 16px;
+}
+#header .nav li a:hover{
+    background-color: dimgray;
+}
+#header .navbar-default .navbar-nav>.open>a{
+    background-color: dimgray;
+}
+#header .dropdown-menu, #footer .dropdown-menu{
+    background-color: black;
+}
+#header .dropdown-menu>li>a:hover, #footer .dropdown-menu>li>a:hover{
+    background-color: dimgray;
+}
+#home .banner{
+    background-image: url(images/banner-image.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+#home .banner .title{
+    font-size: 42px;
+    color: white;
+    font-family: 'Catamaran';
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 275px;
+    text-shadow: 15px 15px 40px black;
+    text-transform: uppercase;
+}
+#home .banner .title-blurb{
+    font-size: 20px;
+    color: white;
+    font-family: 'Catamaran';
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 15px 15px 40px black;
+}
+#home .section{
+    background-image: url(images/carbonfibre-texture.jpg);
+    background-repeat: repeat;
+    padding: 30px;
+}
+#home .section .title{
+    font-size: 32px;
+    color: white;
+    font-family: 'Catamaran';
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+#home .section .divider{
+    border-bottom: 1px solid white;
+    width: 14%;
+    margin: 10px auto 15px auto;
+}
+#home .section .title-blurb{
+    font-size: 20px;
+    color: white;
+    font-family: 'Catamaran';
+    font-weight: 300;
+    text-align: center;
+}
+#home .university .col1{
+    height: 500px;
+    background-image: url(images/library.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+#home .university .col-bg{
+    background: rgba(0, 0, 0, 0.8);
+    margin: 61px;
+    padding: 50px;
+    height: 373px;
+}
+#home .university .col2{
+    height: 500px;
+    background-image: url(images/logo-on-building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+#home .section .btn-more{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin: 30px auto;
+    font-size: 20px;
+    font-family:inherit;
+}
+#home .section .btn-more:hover{
+    background-color: dimgray;
+}
+#footer{
+    background-color: #3A3839;
+    border-top:2px solid darkgray;
+    padding: 30px;
+}
+#footer .footer-logo{
+    height: 165px;
+    vertical-align: top;
+}
+#footer .quick-links{
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+}
+#footer .quick-links .title{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#footer .quick-links ul{
+    padding: 0px
+}
+#footer .quick-links ul li{
+    list-style: none;
+}
+#footer .quick-links ul li a{
+    color: white;
+    font-family: 'Catamaran';
+}
+.login{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    background-image: url(images/aerial-view.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login .bg-dark{
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+.login .navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.login .navbar-default .navbar-nav>li>a:hover{
+    background-color: black;
+}
+.alert{
+    position: absolute;
+    top: 73px;
+    width: 100%;
+    z-index: 1;
+}
+#header .navbar .logo a{
+    text-decoration: none;
+}
+#header .navbar .logo a .panel-logo{
+    height: 55px;
+    width: 55px;
+    margin-top: 8px;
+    -webkit-filter: invert(100%);
+}
+#header .navbar .logo a .panel-heading{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Catamaran';
+    vertical-align: text-top;
+}
+#header .navbar .nav-panel{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#panel-home{
+    background-color: #2A2A2A;
+}
+#panel-home .panel-banner{
+    background-image: url(images/interior-banner.jpg);
+    height: 381px;
+    background-size: cover;
+}
+#panel-home .heading{
+    background-image: url(images/carbonfibre-texture.jpg);
+    background-repeat: repeat;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+#panel-home .heading .title{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: 'Catamaran';
+}
+#panel-home .page-content{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.table-hover>tbody>tr:hover {
+    background-color: dimgray !important;
+}
+.btn-primary, .panel-primary>.panel-heading, .panel-primary{
+    background-color: dimgray !important;
+    border-color: gray !important;
+}
+.btn:hover{
+    background-color: gray !important;
+    border-color: white !important;
+}
+a{
+    color: white !important;
+}
+.table-no-border >tbody >tr >td{
+    border-top: none !important;
+}
+.table-no-border >tbody >tr >td:first-child{
+    font-weight: bold;
+}
+.badge{
+    margin-right: 5px;
+}
